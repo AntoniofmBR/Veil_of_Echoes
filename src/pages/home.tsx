@@ -10,7 +10,7 @@ export function Home () {
     <main className='lg:h-screen md:h-screen sm:min-h-screen flex flex-col justify-between bg-blacks-black_700 text-whites-white_200' >
       <Header />
 
-      <div className='bg-[url("./src/assets/png/background_banner.png")] bg-cover bg-no-repeat h-3/4 w-full flex lg:flex-row md:flex-row sm:flex-col items-center justify-center gap-5' >
+      <div className='bg-[url("/src/assets/png/background_banner.png")] bg-cover bg-no-repeat h-3/4 w-full flex lg:flex-row md:flex-row sm:flex-col items-center justify-center gap-5' >
         <div className='flex flex-col lg:items-start md:items-start sm:items-center justify-center' >
           <motion.img
             src={logo}
