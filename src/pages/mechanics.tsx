@@ -4,7 +4,7 @@ import titlePng from '../assets/png/mechanics_title.png'
 
 export function Mechanics () {
   return (
-    <nav className='min-h-screen bg-mechanics bg-cover bg-no-repeat flex flex-col items-center justify-between text-whites-white_200 p-7' >
+    <nav className='min-h-screen bg-[url("src/assets/png/background_mechanics.png")] bg-cover bg-no-repeat flex flex-col items-center justify-between text-whites-white_200 p-7' >
       <motion.img
         src={titlePng}
         alt="title" 
