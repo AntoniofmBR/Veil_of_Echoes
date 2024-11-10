@@ -56,11 +56,7 @@ export default {
       },
       screens: {
         sm: '320px',
-      },
-      backgroundImage: {
-        'banner': "url('src/assets/png/background_banner.png')",
-        'mechanics': "url('src/assets/png/background_mechanics.png')",
-      },
+      }
     },
   },
   plugins: [
