@@ -39,10 +39,10 @@ export function FeedbackCard({ authorName, role, depoiment, urlChibi, color, rat
         {depoiment}
       </p>
 
-      <div className='flex lg:flex-row md:flex-col sm:flex-row items-center w-full justify-between' >
+      <div className='flex lg:flex-row md:flex-col sm:flex-row items-center w-full justify-between ' >
         <div className='w-28' />
 
-        <div className="flex justify-center p-6">
+        <div className="flex justify-center pt-6 pb-6">
           {[...Array(5)].map((_, index) => (
             <Star
               key={index}

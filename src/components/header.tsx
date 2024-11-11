@@ -10,11 +10,11 @@ export function Header () {
         src={logo}
         alt="logo"
         whileHover={{ scale: 1.1 }}
-        className='lg:h-12 md:h-7 sm:-ml-7 sm:h-0'
+        className='lg:h-12 md:h-7 sm:h-0'
       />
 
-      <section className='flex items-center justify-center gap-20 lg:text-xl md:text-base sm:text-sm'>
-        <Link to="homeSection" smooth={true} duration={500}>
+      <section className='flex items-center justify-center gap-12 lg:text-xl md:text-base sm:text-sm'>
+        <Link to="homeSection" smooth={true} duration={500} >
           <motion.button whileHover={{ scale: 1.1 }}>
             Home
           </motion.button>

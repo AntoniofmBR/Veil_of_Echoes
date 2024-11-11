@@ -18,7 +18,7 @@ export function Home () {
             whileHover={{ scale: 1.1 }}
             className='lg:h-32 md:h-28 sm:h-28 lg:w-auto md:w-auto sm:w-auto'
           />
-          <p className='lg:text-3xl md:text-xl sm:text-2xl lg:w-3/4 md:w-full sm:w-full font-semibold text-whites-white_200 w-3/4' >
+          <p className='lg:text-3xl md:text-xl sm:text-2xl lg:w-3/4 md:w-full sm:w-full font-semibold text-whites-white_200 w-3/4 text-center' >
             This indie game will give you an out-of-world experience
           </p>
         </div>

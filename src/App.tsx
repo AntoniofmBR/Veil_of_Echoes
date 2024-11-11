@@ -9,7 +9,7 @@ import { Footer } from './components/footer';
 
 export default function App() {
   return (
-    <div>
+    <div className="app-container" >
       <Element name='homeSection' >
         <Home />
       </Element>

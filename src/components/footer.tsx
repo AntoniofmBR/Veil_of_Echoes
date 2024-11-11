@@ -13,7 +13,7 @@ export function Footer () {
           className='h-12'
         />
 
-        <section  className='flex items-center justify-center lg:gap-20 md:gap-16 sm:gap-12 lg:mt-0 md:mt-0 sm:mt-2 text-xl' >
+        <section  className='flex items-center justify-center lg:gap-20 md:gap-16 sm:gap-12 lg:mt-0 md:mt-0 sm:mt-2 text-base' >
           <Link to="homeSection" smooth={true} duration={500}>
             <motion.button whileHover={{ scale: 1.1 }}>
               Home
